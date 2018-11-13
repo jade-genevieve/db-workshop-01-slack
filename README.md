@@ -71,7 +71,7 @@ Use your email address as part of your `WHERE` - don't query by your user id.
 
 ## 10: Create a query that returns the text of each message, the name of the channel it was posted in, and the name of the poster, in chronological order
 
-hint: there should be the same number of results as there are messages - use
+Hint: there should be the same number of results as there are messages - use
 this to manually check the results you're getting!
 
 ```sql
@@ -84,7 +84,7 @@ this to manually check the results you're getting!
 
 ```
 
-## 12: Find the names of every user who has never sent a message
+## 12: Find the names of every user who has never sent a message that didn't end with 'has joined the channel'
 
 ```sql
 
